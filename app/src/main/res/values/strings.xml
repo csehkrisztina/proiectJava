@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyCostCalendar</string>
+    <string name="main_title">My Cost Calendar</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="cost_title_label">Title *</string>
+    <string name="cost_price_label">Price *</string>
+    <string name="cost_description_label">Description</string>
+    <string name="save_button_label">Save</string>
+    <string name="cost_title_hint">Enter title</string>
+    <string name="cost_price_hint">Enter price</string>
+    <string name="cost_description_hint">Enter description</string>
+    <string name="cost_date_hint">Enter date</string>
+    <string name="cost_date_label">Date</string>
+    <string name="edit_cost_title">Edit Cost</string>
+    <string name="add_cost_title">Add Cost</string>
+    <string name="empty_costs">No Costs for this month</string>
+    <string name="menu_add_income">Add income</string>
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="delete_income_link"><u>Delete income for this month</u></string>
+    <string name="add_income_title">Add income</string>
+    <string name="RON">RON</string>
+    <string name="calendar_total_label">TOTAL:</string>
+    <string name="income_new_label">Add to income:</string>
+    <string name="income_current_label">Current income:</string>
+</resources>

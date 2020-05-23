@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".AddCost">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/addCost_titleLabel"
+                style="@style/add_cost_label_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cost_title_label" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addCost_title"
+                style="@style/add_cost_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cost_title_hint"
+                android:maxLength="40"
+                android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/addCost_priceLabel"
+                style="@style/add_cost_label_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cost_price_label" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addCost_price"
+                style="@style/add_cost_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cost_price_hint"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/addCost_descriptionLabel"
+                style="@style/add_cost_label_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cost_description_label" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addCost_description"
+                style="@style/add_cost_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cost_description_hint"
+                android:inputType="textMultiLine"
+                android:maxLength="120"
+                android:maxLines="5" />
+
+            <TextView
+                android:id="@+id/addCost_dateLabel"
+                style="@style/add_cost_label_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cost_date_label" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addCost_date"
+                style="@style/add_cost_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cost_date_hint" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addCost_save"
+        style="@style/SaveButtonStyle"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/save_button_label"/>
+
+</LinearLayout>

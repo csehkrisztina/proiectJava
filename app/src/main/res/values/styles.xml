@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <!-- Actionbar Theme -->
+    <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--    Date picker style spinner -->
+    <style name="SpinnerDatePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/SpinnerMode</item>
+    </style>
+
+    <style name="SpinnerMode" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <!--    Date picker style calendar -->
+    <style name="CalendarDatePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/CalendarMode</item>
+    </style>
+
+    <style name="CalendarMode" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+
+    <style name="add_cost_label_style">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="add_cost_edit_text_style">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:backgroundTint">@color/secondary</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <!--    Save button style -->
+    <style name="SaveButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+
+<!--    Calendar total textViews -->
+    <style name="CalendarTotal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
